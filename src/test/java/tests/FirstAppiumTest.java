@@ -7,7 +7,7 @@ public class FirstAppiumTest {
 	@Test
 	void testCalculator()
 	{
-		System.out.println();
+		System.out.println("This is first appium test");
 		
 	}
 
