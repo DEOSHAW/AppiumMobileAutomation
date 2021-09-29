@@ -10,7 +10,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class CalendarTest {
+public class AmazonTest {
 	AppiumDriver<MobileElement> driver;
 	
 	
