@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.CalendarTest">
+      <class name="tests.DialANumberScript">
         <methods>
-          <include name="testCalendar"/>
+          <include name="testDialANumber"/>
         </methods>
-      </class> <!-- tests.CalendarTest -->
+      </class> <!-- tests.DialANumberScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

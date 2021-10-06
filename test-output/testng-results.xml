@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-28T14:54:48Z" name="Default suite" finished-at="2021-09-28T14:55:17Z" duration-ms="29042">
+  <suite started-at="2021-10-06T13:44:43Z" name="Default suite" finished-at="2021-10-06T13:45:08Z" duration-ms="24454">
     <groups>
     </groups>
-    <test started-at="2021-09-28T14:54:48Z" name="Default test" finished-at="2021-09-28T14:55:17Z" duration-ms="29042">
-      <class name="tests.CalendarTest">
-        <test-method signature="testCalendar()[pri:0, instance:tests.CalendarTest@fdefd3f]" started-at="2021-09-28T20:24:48Z" name="testCalendar" finished-at="2021-09-28T20:25:17Z" duration-ms="28995" status="PASS">
+    <test started-at="2021-10-06T13:44:43Z" name="Default test" finished-at="2021-10-06T13:45:08Z" duration-ms="24454">
+      <class name="tests.DialANumberScript">
+        <test-method signature="testDialANumber()[pri:0, instance:tests.DialANumberScript@fdefd3f]" started-at="2021-10-06T19:14:43Z" name="testDialANumber" finished-at="2021-10-06T19:15:08Z" duration-ms="24414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCalendar -->
-      </class> <!-- tests.CalendarTest -->
+        </test-method> <!-- testDialANumber -->
+      </class> <!-- tests.DialANumberScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
