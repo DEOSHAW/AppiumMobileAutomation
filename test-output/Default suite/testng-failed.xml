@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.DialANumberScript">
+      <class name="tests.SendSMSTest">
         <methods>
-          <include name="testDialANumber"/>
+          <include name="testSendSMSFunction"/>
         </methods>
-      </class> <!-- tests.DialANumberScript -->
+      </class> <!-- tests.SendSMSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
