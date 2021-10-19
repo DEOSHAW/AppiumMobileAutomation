@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.SendSMSTest">
+      <class name="tests.Contacts_Emulator">
         <methods>
-          <include name="testSendSMSFunction"/>
+          <include name="getContactDetails"/>
         </methods>
-      </class> <!-- tests.SendSMSTest -->
+      </class> <!-- tests.Contacts_Emulator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
