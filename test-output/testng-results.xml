@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-19T14:41:11Z" name="Default suite" finished-at="2021-10-19T14:41:47Z" duration-ms="35970">
+  <suite started-at="2021-10-26T13:45:12Z" name="Default suite" finished-at="2021-10-26T13:46:14Z" duration-ms="61586">
     <groups>
     </groups>
-    <test started-at="2021-10-19T14:41:11Z" name="Default test" finished-at="2021-10-19T14:41:47Z" duration-ms="35970">
-      <class name="tests.Contacts_Emulator">
-        <test-method signature="getContactDetails()[pri:0, instance:tests.Contacts_Emulator@fdefd3f]" started-at="2021-10-19T20:11:11Z" name="getContactDetails" finished-at="2021-10-19T20:11:47Z" duration-ms="35917" status="PASS">
+    <test started-at="2021-10-26T13:45:12Z" name="Default test" finished-at="2021-10-26T13:46:14Z" duration-ms="61586">
+      <class name="tests.Camera_Tests">
+        <test-method signature="testAndroidUIApp()[pri:0, instance:tests.Camera_Tests@fdefd3f]" started-at="2021-10-26T19:15:12Z" name="testAndroidUIApp" finished-at="2021-10-26T19:16:14Z" duration-ms="61412" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getContactDetails -->
-      </class> <!-- tests.Contacts_Emulator -->
+        </test-method> <!-- testAndroidUIApp -->
+      </class> <!-- tests.Camera_Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
