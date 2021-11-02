@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Camera_Tests">
+      <class name="tests.APIDemos_CheckBoxAndRadioButton">
         <methods>
-          <include name="testAndroidUIApp"/>
+          <include name="testAPIDemo"/>
         </methods>
-      </class> <!-- tests.Camera_Tests -->
+      </class> <!-- tests.APIDemos_CheckBoxAndRadioButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
