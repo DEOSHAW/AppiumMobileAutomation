@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-02T12:29:27Z" name="Default suite" finished-at="2021-11-02T12:29:54Z" duration-ms="26978">
+  <suite started-at="2021-11-06T14:00:33Z" name="Default suite" finished-at="2021-11-06T14:01:02Z" duration-ms="29157">
     <groups>
     </groups>
-    <test started-at="2021-11-02T12:29:27Z" name="Default test" finished-at="2021-11-02T12:29:54Z" duration-ms="26978">
-      <class name="tests.APIDemos_CheckBoxAndRadioButton">
-        <test-method signature="testAPIDemo()[pri:0, instance:tests.APIDemos_CheckBoxAndRadioButton@fdefd3f]" started-at="2021-11-02T17:59:27Z" name="testAPIDemo" finished-at="2021-11-02T17:59:54Z" duration-ms="26954" status="PASS">
+    <test started-at="2021-11-06T14:00:33Z" name="Default test" finished-at="2021-11-06T14:01:02Z" duration-ms="29157">
+      <class name="tests.BrowserTest_MaaVaishnoDevi">
+        <test-method signature="testPlanAYatra()[pri:0, instance:tests.BrowserTest_MaaVaishnoDevi@a4102b8]" started-at="2021-11-06T19:30:33Z" name="testPlanAYatra" finished-at="2021-11-06T19:31:02Z" duration-ms="29128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAPIDemo -->
-      </class> <!-- tests.APIDemos_CheckBoxAndRadioButton -->
+        </test-method> <!-- testPlanAYatra -->
+      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

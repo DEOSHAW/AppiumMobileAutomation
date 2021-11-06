@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_CheckBoxAndRadioButton">
+      <class name="tests.BrowserTest_MaaVaishnoDevi">
         <methods>
-          <include name="testAPIDemo"/>
+          <include name="testPlanAYatra"/>
         </methods>
-      </class> <!-- tests.APIDemos_CheckBoxAndRadioButton -->
+      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
