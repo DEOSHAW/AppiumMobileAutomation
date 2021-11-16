@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-06T14:00:33Z" name="Default suite" finished-at="2021-11-06T14:01:02Z" duration-ms="29157">
+  <suite started-at="2021-11-16T12:22:31Z" name="Default suite" finished-at="2021-11-16T12:23:00Z" duration-ms="28646">
     <groups>
     </groups>
-    <test started-at="2021-11-06T14:00:33Z" name="Default test" finished-at="2021-11-06T14:01:02Z" duration-ms="29157">
-      <class name="tests.BrowserTest_MaaVaishnoDevi">
-        <test-method signature="testPlanAYatra()[pri:0, instance:tests.BrowserTest_MaaVaishnoDevi@a4102b8]" started-at="2021-11-06T19:30:33Z" name="testPlanAYatra" finished-at="2021-11-06T19:31:02Z" duration-ms="29128" status="PASS">
+    <test started-at="2021-11-16T12:22:31Z" name="Default test" finished-at="2021-11-16T12:23:00Z" duration-ms="28646">
+      <class name="tests.Guru99Test">
+        <test-method signature="testIframeScenarios()[pri:0, instance:tests.Guru99Test@a4102b8]" started-at="2021-11-16T17:52:31Z" name="testIframeScenarios" finished-at="2021-11-16T17:53:00Z" duration-ms="28612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPlanAYatra -->
-      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
+        </test-method> <!-- testIframeScenarios -->
+      </class> <!-- tests.Guru99Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
