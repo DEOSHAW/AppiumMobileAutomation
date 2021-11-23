@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Guru99Test">
+      <class name="tests.MMT">
         <methods>
-          <include name="testIframeScenarios"/>
+          <include name="testMMT"/>
         </methods>
-      </class> <!-- tests.Guru99Test -->
+      </class> <!-- tests.MMT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
