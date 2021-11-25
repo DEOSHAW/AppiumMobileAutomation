@@ -1,9 +1,11 @@
 package tests;
 
-import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Iterator;
+import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,14 +33,24 @@ public class MMT {
 		driver=new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		WebDriverWait wait=new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.google.android.gms:id/credential_primary_label"))).click();
-		Thread.sleep(500);
-		driver.findElementById("com.makemytrip:id/title").click();
-		Thread.sleep(1000);
-		//driver.findElementById("com.makemytrip:id/search_button_flat").click();
-		//android.widget.TextView
-		//String text=driver.findElement(By.className("android.widget.TextView")).getText();
+		Thread.sleep(4000);
+		driver.findElementsById("com.makemytrip:id/title").get(0).click();
+		Thread.sleep(3000);
+		driver.findElementById("com.makemytrip:id/search_button_flat").click();
+		Thread.sleep(3000);
+		driver.findElementById("com.makemytrip:id/snack_bar_footer_left").click();
+		Thread.sleep(2000);
+		List<MobileElement> flights=driver.findElements(By.id("com.makemytrip:id/airline_name"));
+		Iterator<MobileElement> itr=flights.iterator();
+		StringBuilder listOfFlights=new StringBuilder();
+		while(itr.hasNext())
+		{
+			listOfFlights.append(itr.next().getText());
+			listOfFlights.append("\n");
+		}
+		System.out.println("Below flights are available: ");
+		System.out.println(listOfFlights);
 		
-		//System.out.println(text);
 		driver.quit();
 		
 		
