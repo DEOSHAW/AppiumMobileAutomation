@@ -34,8 +34,10 @@ public class MMT {
 		WebDriverWait wait=new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.google.android.gms:id/credential_primary_label"))).click();
 		Thread.sleep(4000);
-		driver.findElementsById("com.makemytrip:id/title").get(0).click();
-		Thread.sleep(3000);
+		//driver.findElementByAccessibilityId("com.makemytrip:id/title").click();
+		//Thread.sleep(3000);
+		driver.findElementsByClassName("android.widget.RelativeLayout").get(5).click();
+		Thread.sleep(1000);
 		driver.findElementById("com.makemytrip:id/search_button_flat").click();
 		Thread.sleep(3000);
 		driver.findElementById("com.makemytrip:id/snack_bar_footer_left").click();
