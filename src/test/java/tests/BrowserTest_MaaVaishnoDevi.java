@@ -28,7 +28,7 @@ public class BrowserTest_MaaVaishnoDevi {
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");	
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"chromedriver.exe");
 		driver=new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.get("https://www.maavaishnodevi.org/index.aspx");
 		driver.findElement(By.xpath("//*[text()='Plan a Yatra']")).click();

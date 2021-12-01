@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-26T15:47:40Z" name="Default suite" finished-at="2021-11-26T15:48:30Z" duration-ms="49807">
+  <suite started-at="2021-12-01T12:55:19Z" name="Default suite" finished-at="2021-12-01T12:56:28Z" duration-ms="69339">
     <groups>
     </groups>
-    <test started-at="2021-11-26T15:47:40Z" name="Default test" finished-at="2021-11-26T15:48:30Z" duration-ms="49807">
-      <class name="tests.MMT">
-        <test-method signature="testMMT()[pri:0, instance:tests.MMT@69930714]" started-at="2021-11-26T21:17:40Z" name="testMMT" finished-at="2021-11-26T21:18:30Z" duration-ms="49778" status="PASS">
+    <test started-at="2021-12-01T12:55:19Z" name="Default test" finished-at="2021-12-01T12:56:28Z" duration-ms="69339">
+      <class name="tests.BrowserTest_MaaVaishnoDevi">
+        <test-method signature="testPlanAYatra()[pri:0, instance:tests.BrowserTest_MaaVaishnoDevi@a4102b8]" started-at="2021-12-01T18:25:19Z" name="testPlanAYatra" finished-at="2021-12-01T18:26:28Z" duration-ms="69292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMMT -->
-      </class> <!-- tests.MMT -->
+        </test-method> <!-- testPlanAYatra -->
+      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
