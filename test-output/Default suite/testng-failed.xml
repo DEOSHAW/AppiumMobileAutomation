@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.HDFCTest">
+      <class name="tests.PharmeasyTest">
         <methods>
-          <include name="testShowAlert"/>
+          <include name="testPharmeasy"/>
         </methods>
-      </class> <!-- tests.HDFCTest -->
+      </class> <!-- tests.PharmeasyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

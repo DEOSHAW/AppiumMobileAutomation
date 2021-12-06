@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-01T12:55:19Z" name="Default suite" finished-at="2021-12-01T12:56:28Z" duration-ms="69339">
+  <suite started-at="2021-12-06T14:18:55Z" name="Default suite" finished-at="2021-12-06T14:19:40Z" duration-ms="45021">
     <groups>
     </groups>
-    <test started-at="2021-12-01T12:55:19Z" name="Default test" finished-at="2021-12-01T12:56:28Z" duration-ms="69339">
-      <class name="tests.BrowserTest_MaaVaishnoDevi">
-        <test-method signature="testPlanAYatra()[pri:0, instance:tests.BrowserTest_MaaVaishnoDevi@a4102b8]" started-at="2021-12-01T18:25:19Z" name="testPlanAYatra" finished-at="2021-12-01T18:26:28Z" duration-ms="69292" status="PASS">
+    <test started-at="2021-12-06T14:18:55Z" name="Default test" finished-at="2021-12-06T14:19:40Z" duration-ms="45021">
+      <class name="tests.PharmeasyTest">
+        <test-method signature="testPharmeasy()[pri:0, instance:tests.PharmeasyTest@fdefd3f]" started-at="2021-12-06T19:48:55Z" name="testPharmeasy" finished-at="2021-12-06T19:49:40Z" duration-ms="44961" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPlanAYatra -->
-      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
+        </test-method> <!-- testPharmeasy -->
+      </class> <!-- tests.PharmeasyTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
