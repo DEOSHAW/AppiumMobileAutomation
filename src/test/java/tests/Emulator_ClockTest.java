@@ -9,9 +9,12 @@ import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.touch.TapOptions;
+import static io.appium.java_client.touch.offset.ElementOption.element;
 
 public class Emulator_ClockTest {
 	AndroidDriver<AndroidElement> driver;
@@ -35,8 +38,8 @@ public class Emulator_ClockTest {
 		driver=new AndroidDriver<AndroidElement>(url,cap);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		AndroidElement stopWatchLink=driver.findElementByXPath("//android.widget.TextView[@text='STOPWATCH']");
-		TouchActions actions=new TouchActions(driver);
-		actions.singleTap(stopWatchLink).perform();
+		TouchAction actions=new TouchAction(driver);
+		actions.tap(new TapOptions().withElement(element(stopWatchLink))).perform();
 		//stopWatchLink.click();
 		driver.findElement(By.id("com.android.deskclock:id/stopwatch_hundredths_text")).click();
 		Thread.sleep(3000);
