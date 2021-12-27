@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-21T12:12:13Z" name="Default suite" finished-at="2021-12-21T12:12:32Z" duration-ms="18727">
+  <suite started-at="2021-12-27T11:23:02Z" name="Default suite" finished-at="2021-12-27T11:23:19Z" duration-ms="17604">
     <groups>
     </groups>
-    <test started-at="2021-12-21T12:12:13Z" name="Default test" finished-at="2021-12-21T12:12:32Z" duration-ms="18727">
-      <class name="tests.Emulator_ClockTest">
-        <test-method signature="testStopWatch()[pri:0, instance:tests.Emulator_ClockTest@7fc229ab]" started-at="2021-12-21T17:42:13Z" name="testStopWatch" finished-at="2021-12-21T17:42:32Z" duration-ms="18692" status="PASS">
+    <test started-at="2021-12-27T11:23:02Z" name="Default test" finished-at="2021-12-27T11:23:19Z" duration-ms="17604">
+      <class name="tests.GeneralStore_Test1">
+        <test-method signature="testLoginWithoutUserNameScenario()[pri:0, instance:tests.GeneralStore_Test1@fdefd3f]" started-at="2021-12-27T16:53:02Z" name="testLoginWithoutUserNameScenario" finished-at="2021-12-27T16:53:19Z" duration-ms="17571" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testStopWatch -->
-      </class> <!-- tests.Emulator_ClockTest -->
+        </test-method> <!-- testLoginWithoutUserNameScenario -->
+      </class> <!-- tests.GeneralStore_Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

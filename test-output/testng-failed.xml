@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Emulator_ClockTest">
+      <class name="tests.GeneralStore_Test1">
         <methods>
-          <include name="testStopWatch"/>
+          <include name="testLoginWithoutUserNameScenario"/>
         </methods>
-      </class> <!-- tests.Emulator_ClockTest -->
+      </class> <!-- tests.GeneralStore_Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
