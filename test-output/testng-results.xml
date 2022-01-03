@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-27T11:23:02Z" name="Default suite" finished-at="2021-12-27T11:23:19Z" duration-ms="17604">
+  <suite started-at="2022-01-03T14:04:23Z" name="Default suite" finished-at="2022-01-03T14:04:44Z" duration-ms="21114">
     <groups>
     </groups>
-    <test started-at="2021-12-27T11:23:02Z" name="Default test" finished-at="2021-12-27T11:23:19Z" duration-ms="17604">
-      <class name="tests.GeneralStore_Test1">
-        <test-method signature="testLoginWithoutUserNameScenario()[pri:0, instance:tests.GeneralStore_Test1@fdefd3f]" started-at="2021-12-27T16:53:02Z" name="testLoginWithoutUserNameScenario" finished-at="2021-12-27T16:53:19Z" duration-ms="17571" status="PASS">
+    <test started-at="2022-01-03T14:04:23Z" name="Default test" finished-at="2022-01-03T14:04:44Z" duration-ms="21114">
+      <class name="tests.GeneralStore_AddProductToCart">
+        <test-method signature="addProductToCart()[pri:0, instance:tests.GeneralStore_AddProductToCart@79ca92b9]" started-at="2022-01-03T19:34:23Z" name="addProductToCart" finished-at="2022-01-03T19:34:44Z" duration-ms="21071" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginWithoutUserNameScenario -->
-      </class> <!-- tests.GeneralStore_Test1 -->
+        </test-method> <!-- addProductToCart -->
+      </class> <!-- tests.GeneralStore_AddProductToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
