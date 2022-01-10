@@ -2,10 +2,12 @@ package tests;
 
 import java.net.URL;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -17,6 +19,8 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.events.api.general.JavaScriptEventListener;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -66,6 +70,31 @@ public class GeneralStore_AddProductToCart {
 		String addedProduct=driver.findElement(By.id("com.androidsample.generalstore:id/productName")).getText();
 		System.out.println("Product added in the basket: "+addedProduct);
 		Thread.sleep(1000);
+		//Click on visit to website to complete purchase
+		driver.findElement(By.xpath("//*[@text='Visit to the website to complete purchase']")).click();
+		Thread.sleep(5000);
+		Set<String> contextHandles=driver.getContextHandles();
+		for(String handle:contextHandles)
+		{
+			if(handle.contains("WEBVIEW"))
+			{
+				//System.out.println(handle);
+				driver.context(handle);
+				break;
+			}
+		}
+		Thread.sleep(2000);
+		
+		WebElement searchBox=driver.findElement(By.xpath("//*[@type='search']"));
+		searchBox.sendKeys("Appium");
+		Thread.sleep(1000);
+		searchBox.sendKeys(Keys.ENTER);
+		Thread.sleep(1000);
+		driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		driver.context("NATIVE_APP");
+		driver.findElement(By.xpath("//*[@text='Enter name here']")).sendKeys("Deo Shaw");
+		
+		driver.quit();
 		
 		
 	}
