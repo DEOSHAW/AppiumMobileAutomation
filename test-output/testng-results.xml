@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-10T10:37:26Z" name="Default suite" finished-at="2022-01-10T10:38:05Z" duration-ms="39345">
+  <suite started-at="2022-01-18T10:11:54Z" name="Default suite" finished-at="2022-01-18T10:12:25Z" duration-ms="31003">
     <groups>
     </groups>
-    <test started-at="2022-01-10T10:37:26Z" name="Default test" finished-at="2022-01-10T10:38:05Z" duration-ms="39345">
-      <class name="tests.GeneralStore_AddProductToCart">
-        <test-method signature="addProductToCart()[pri:0, instance:tests.GeneralStore_AddProductToCart@79ca92b9]" started-at="2022-01-10T16:07:26Z" name="addProductToCart" finished-at="2022-01-10T16:08:05Z" duration-ms="39317" status="PASS">
+    <test started-at="2022-01-18T10:11:54Z" name="Default test" finished-at="2022-01-18T10:12:25Z" duration-ms="31003">
+      <class name="tests.GeneralStore_AddTwoProducts">
+        <test-method signature="testAddMultipleProductsToBasket()[pri:0, instance:tests.GeneralStore_AddTwoProducts@fdefd3f]" started-at="2022-01-18T15:41:54Z" name="testAddMultipleProductsToBasket" finished-at="2022-01-18T15:42:25Z" duration-ms="30975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductToCart -->
-      </class> <!-- tests.GeneralStore_AddProductToCart -->
+        </test-method> <!-- testAddMultipleProductsToBasket -->
+      </class> <!-- tests.GeneralStore_AddTwoProducts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

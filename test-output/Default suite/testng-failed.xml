@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.GeneralStore_AddProductToCart">
+      <class name="tests.GeneralStore_AddTwoProducts">
         <methods>
-          <include name="addProductToCart"/>
+          <include name="testAddMultipleProductsToBasket"/>
         </methods>
-      </class> <!-- tests.GeneralStore_AddProductToCart -->
+      </class> <!-- tests.GeneralStore_AddTwoProducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
