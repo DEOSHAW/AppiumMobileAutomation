@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemosDragAndDrop">
+      <class name="tests.APIDemos_GetCurrentTime">
         <methods>
-          <include name="testDragAndDropFeature"/>
+          <include name="getCurrentTime"/>
         </methods>
-      </class> <!-- tests.APIDemosDragAndDrop -->
+      </class> <!-- tests.APIDemos_GetCurrentTime -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
