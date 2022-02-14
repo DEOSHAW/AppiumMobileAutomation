@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_GetCurrentTime">
+      <class name="tests.APIDemos_ExpandableList">
         <methods>
-          <include name="getCurrentTime"/>
+          <include name="testExpandableList"/>
         </methods>
-      </class> <!-- tests.APIDemos_GetCurrentTime -->
+      </class> <!-- tests.APIDemos_ExpandableList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
