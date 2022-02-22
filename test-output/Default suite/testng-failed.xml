@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_ExpandableList">
+      <class name="tests.Adidas_Test">
         <methods>
-          <include name="testExpandableList"/>
+          <include name="testAdidas"/>
         </methods>
-      </class> <!-- tests.APIDemos_ExpandableList -->
+      </class> <!-- tests.Adidas_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
