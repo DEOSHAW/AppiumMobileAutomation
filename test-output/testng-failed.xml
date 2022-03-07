@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.CalendarTest">
+      <class name="tests.GeneralStore_AddMultipleProducts">
         <methods>
-          <include name="getAllHolidaysInCurrentMonth"/>
+          <include name="test_addFourProducts"/>
         </methods>
-      </class> <!-- tests.CalendarTest -->
+      </class> <!-- tests.GeneralStore_AddMultipleProducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
