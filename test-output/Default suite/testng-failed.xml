@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.GeneralStore_AddMultipleProducts">
+      <class name="tests.TeraData">
         <methods>
-          <include name="test_addFourProducts"/>
+          <include name="getCareerInformation"/>
         </methods>
-      </class> <!-- tests.GeneralStore_AddMultipleProducts -->
+      </class> <!-- tests.TeraData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
