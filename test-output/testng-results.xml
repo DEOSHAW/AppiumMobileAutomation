@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-15T14:10:28Z" name="Default suite" finished-at="2022-03-15T14:11:02Z" duration-ms="34807">
+  <suite started-at="2022-03-22T11:50:56Z" name="Default suite" finished-at="2022-03-22T11:51:12Z" duration-ms="15823">
     <groups>
     </groups>
-    <test started-at="2022-03-15T14:10:28Z" name="Default test" finished-at="2022-03-15T14:11:02Z" duration-ms="34807">
-      <class name="tests.TeraData">
-        <test-method signature="getCareerInformation()[pri:0, instance:tests.TeraData@a4102b8]" started-at="2022-03-15T19:40:28Z" name="getCareerInformation" finished-at="2022-03-15T19:41:02Z" duration-ms="34774" status="PASS">
+    <test started-at="2022-03-22T11:50:56Z" name="Default test" finished-at="2022-03-22T11:51:12Z" duration-ms="15823">
+      <class name="tests.AarogyaSetuTest">
+        <test-method signature="testAarogyaSetuApp()[pri:0, instance:tests.AarogyaSetuTest@2aa3cd93]" started-at="2022-03-22T17:20:56Z" name="testAarogyaSetuApp" finished-at="2022-03-22T17:21:12Z" duration-ms="15787" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCareerInformation -->
-      </class> <!-- tests.TeraData -->
+        </test-method> <!-- testAarogyaSetuApp -->
+      </class> <!-- tests.AarogyaSetuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

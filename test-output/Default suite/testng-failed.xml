@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.TeraData">
+      <class name="tests.AarogyaSetuTest">
         <methods>
-          <include name="getCareerInformation"/>
+          <include name="testAarogyaSetuApp"/>
         </methods>
-      </class> <!-- tests.TeraData -->
+      </class> <!-- tests.AarogyaSetuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
