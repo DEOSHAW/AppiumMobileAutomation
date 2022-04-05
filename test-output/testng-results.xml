@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-29T13:20:31Z" name="Default suite" finished-at="2022-03-29T13:20:55Z" duration-ms="24536">
+  <suite started-at="2022-04-05T11:21:20Z" name="Default suite" finished-at="2022-04-05T11:21:34Z" duration-ms="14451">
     <groups>
     </groups>
-    <test started-at="2022-03-29T13:20:31Z" name="Default test" finished-at="2022-03-29T13:20:55Z" duration-ms="24536">
-      <class name="tests.APIDemos_Animation_Reversing">
-        <test-method signature="testAnimationReversing()[pri:0, instance:tests.APIDemos_Animation_Reversing@2aa3cd93]" started-at="2022-03-29T18:50:31Z" name="testAnimationReversing" finished-at="2022-03-29T18:50:55Z" duration-ms="24500" status="PASS">
+    <test started-at="2022-04-05T11:21:20Z" name="Default test" finished-at="2022-04-05T11:21:34Z" duration-ms="14451">
+      <class name="tests.APIDemos_OS_SMS_Messaging">
+        <test-method signature="testSMSMessaging()[pri:0, instance:tests.APIDemos_OS_SMS_Messaging@2aa3cd93]" started-at="2022-04-05T16:51:20Z" name="testSMSMessaging" finished-at="2022-04-05T16:51:34Z" duration-ms="14409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAnimationReversing -->
-      </class> <!-- tests.APIDemos_Animation_Reversing -->
+        </test-method> <!-- testSMSMessaging -->
+      </class> <!-- tests.APIDemos_OS_SMS_Messaging -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

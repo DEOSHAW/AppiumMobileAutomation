@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.AarogyaSetuTest">
+      <class name="tests.APIDemos_OS_SMS_Messaging">
         <methods>
-          <include name="testAarogyaSetuApp"/>
+          <include name="testSMSMessaging"/>
         </methods>
-      </class> <!-- tests.AarogyaSetuTest -->
+      </class> <!-- tests.APIDemos_OS_SMS_Messaging -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
