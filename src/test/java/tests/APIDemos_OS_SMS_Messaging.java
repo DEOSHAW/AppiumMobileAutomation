@@ -43,6 +43,8 @@ public class APIDemos_OS_SMS_Messaging {
 		String disclaimerNote=driver.findElement(By.xpath("//*[contains(@text,'WARNING')]")).getText();
 		System.out.println(disclaimerNote);
 		
+		driver.quit();
+		
 		
 		
 		
