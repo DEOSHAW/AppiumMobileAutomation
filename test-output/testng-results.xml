@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-05T11:22:52Z" name="Default suite" finished-at="2022-04-05T11:23:06Z" duration-ms="13939">
+  <suite started-at="2022-04-12T11:31:15Z" name="Default suite" finished-at="2022-04-12T11:31:40Z" duration-ms="24662">
     <groups>
     </groups>
-    <test started-at="2022-04-05T11:22:52Z" name="Default test" finished-at="2022-04-05T11:23:06Z" duration-ms="13939">
-      <class name="tests.APIDemos_OS_SMS_Messaging">
-        <test-method signature="testSMSMessaging()[pri:0, instance:tests.APIDemos_OS_SMS_Messaging@2aa3cd93]" started-at="2022-04-05T16:52:52Z" name="testSMSMessaging" finished-at="2022-04-05T16:53:06Z" duration-ms="13908" status="PASS">
+    <test started-at="2022-04-12T11:31:15Z" name="Default test" finished-at="2022-04-12T11:31:40Z" duration-ms="24662">
+      <class name="tests.APIDemos_LogTextBox">
+        <test-method signature="testLogTextBox()[pri:0, instance:tests.APIDemos_LogTextBox@3bd40a57]" started-at="2022-04-12T17:01:15Z" name="testLogTextBox" finished-at="2022-04-12T17:01:40Z" duration-ms="24636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSMSMessaging -->
-      </class> <!-- tests.APIDemos_OS_SMS_Messaging -->
+        </test-method> <!-- testLogTextBox -->
+      </class> <!-- tests.APIDemos_LogTextBox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
