@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Preference_ListPreference">
+      <class name="tests.GeneralStore_Emulator">
         <methods>
-          <include name="testListPreference"/>
+          <include name="addProductToCart"/>
         </methods>
-      </class> <!-- tests.Preference_ListPreference -->
+      </class> <!-- tests.GeneralStore_Emulator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
