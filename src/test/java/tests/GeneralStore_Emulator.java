@@ -22,8 +22,8 @@ public class GeneralStore_Emulator {
 	{
 		
 		DesiredCapabilities cap=new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
 		
