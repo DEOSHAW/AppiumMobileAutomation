@@ -25,7 +25,7 @@ public class GeneralStore_Emulator {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		
 		//Application info
 		cap.setCapability("appPackage","com.androidsample.generalstore");

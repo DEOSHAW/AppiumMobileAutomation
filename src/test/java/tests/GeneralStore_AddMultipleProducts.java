@@ -25,7 +25,7 @@ public class GeneralStore_AddMultipleProducts {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Samsung Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
 		cap.setCapability("appPackage", "com.androidsample.generalstore");
 		cap.setCapability("appActivity", "com.androidsample.generalstore.SplashActivity");
 		

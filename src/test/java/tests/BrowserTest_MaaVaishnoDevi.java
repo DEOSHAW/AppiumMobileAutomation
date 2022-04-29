@@ -25,14 +25,14 @@ public class BrowserTest_MaaVaishnoDevi {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy M31");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");	
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12");	
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
 		
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"chromedriver.exe");
 		driver=new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.get("https://www.maavaishnodevi.org/index.aspx");
 		driver.findElement(By.xpath("//*[text()='Plan a Yatra']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		String text=driver.findElement(By.xpath("//strong[text()='Rest of India to Jammu']")).getText();
 		JavascriptExecutor js=(JavascriptExecutor)driver;

@@ -22,7 +22,7 @@ public class APIDemos_LogTextBox {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
 		cap.setCapability("appPackage","io.appium.android.apis");
 		cap.setCapability("appActivity","io.appium.android.apis.ApiDemos");
 		System.out.println("How many lines to add: ");
