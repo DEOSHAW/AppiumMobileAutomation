@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.BrowserTest_MaaVaishnoDevi">
+      <class name="tests.APIDemos_OS_RotationVector">
         <methods>
-          <include name="testPlanAYatra"/>
+          <include name="testRotationVector"/>
         </methods>
-      </class> <!-- tests.BrowserTest_MaaVaishnoDevi -->
+      </class> <!-- tests.APIDemos_OS_RotationVector -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

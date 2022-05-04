@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-29T09:06:32Z" name="Default suite" finished-at="2022-04-29T09:07:01Z" duration-ms="28173">
+  <suite started-at="2022-05-04T04:31:24Z" name="Default suite" finished-at="2022-05-04T04:31:43Z" duration-ms="19145">
     <groups>
     </groups>
-    <test started-at="2022-04-29T09:06:32Z" name="Default test" finished-at="2022-04-29T09:07:01Z" duration-ms="28173">
-      <class name="tests.AppiumMobileSiteTest">
-        <test-method signature="testAppiumMobileApp()[pri:0, instance:tests.AppiumMobileSiteTest@d83da2e]" started-at="2022-04-29T14:36:33Z" name="testAppiumMobileApp" finished-at="2022-04-29T14:37:01Z" duration-ms="28145" status="PASS">
+    <test started-at="2022-05-04T04:31:24Z" name="Default test" finished-at="2022-05-04T04:31:43Z" duration-ms="19145">
+      <class name="tests.APIDemos_OS_RotationVector">
+        <test-method signature="testRotationVector()[pri:0, instance:tests.APIDemos_OS_RotationVector@6e75aa0d]" started-at="2022-05-04T10:01:24Z" name="testRotationVector" finished-at="2022-05-04T10:01:43Z" duration-ms="19099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAppiumMobileApp -->
-      </class> <!-- tests.AppiumMobileSiteTest -->
+        </test-method> <!-- testRotationVector -->
+      </class> <!-- tests.APIDemos_OS_RotationVector -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
