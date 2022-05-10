@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-04T04:31:24Z" name="Default suite" finished-at="2022-05-04T04:31:43Z" duration-ms="19145">
+  <suite started-at="2022-05-10T03:48:30Z" name="Default suite" finished-at="2022-05-10T03:49:03Z" duration-ms="32899">
     <groups>
     </groups>
-    <test started-at="2022-05-04T04:31:24Z" name="Default test" finished-at="2022-05-04T04:31:43Z" duration-ms="19145">
-      <class name="tests.APIDemos_OS_RotationVector">
-        <test-method signature="testRotationVector()[pri:0, instance:tests.APIDemos_OS_RotationVector@6e75aa0d]" started-at="2022-05-04T10:01:24Z" name="testRotationVector" finished-at="2022-05-04T10:01:43Z" duration-ms="19099" status="PASS">
+    <test started-at="2022-05-10T03:48:30Z" name="Default test" finished-at="2022-05-10T03:49:03Z" duration-ms="32899">
+      <class name="tests.APIDemos_Views_Spinners">
+        <test-method signature="testDropDown()[pri:0, instance:tests.APIDemos_Views_Spinners@3bd40a57]" started-at="2022-05-10T09:18:30Z" name="testDropDown" finished-at="2022-05-10T09:19:03Z" duration-ms="32871" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRotationVector -->
-      </class> <!-- tests.APIDemos_OS_RotationVector -->
+        </test-method> <!-- testDropDown -->
+      </class> <!-- tests.APIDemos_Views_Spinners -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
