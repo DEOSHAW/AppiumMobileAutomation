@@ -22,11 +22,12 @@ public class BrowserTest_MaaVaishnoDevi {
 		
 		//Device & Platform info
 		DesiredCapabilities cap=new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy M31");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12");	
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
+		cap.setCapability(MobileCapabilityType.BROWSER_VERSION,"101.0.4951.61");
 		
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+"chromedriver.exe");
 		driver=new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
