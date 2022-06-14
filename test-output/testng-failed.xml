@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.WhartonTest">
+      <class name="tests.APIDemos_AlertDialog">
         <methods>
-          <include name="getWhartonMotto"/>
+          <include name="testOKCancelDialog"/>
         </methods>
-      </class> <!-- tests.WhartonTest -->
+      </class> <!-- tests.APIDemos_AlertDialog -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
