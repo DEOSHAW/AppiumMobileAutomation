@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_AlertDialog">
+      <class name="tests.Zoom_Test">
         <methods>
-          <include name="testOKCancelDialog"/>
+          <include name="joinWithInvalidId"/>
         </methods>
-      </class> <!-- tests.APIDemos_AlertDialog -->
+      </class> <!-- tests.Zoom_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
