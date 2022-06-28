@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Zoom_Test">
+      <class name="tests.Vysor">
         <methods>
-          <include name="joinWithInvalidId"/>
+          <include name="getVysorInfo"/>
         </methods>
-      </class> <!-- tests.Zoom_Test -->
+      </class> <!-- tests.Vysor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
