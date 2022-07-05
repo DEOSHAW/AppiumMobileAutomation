@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Vysor">
+      <class name="tests.APIDemos_Animation_ViewFlip">
         <methods>
-          <include name="getVysorInfo"/>
+          <include name="testViewFlip"/>
         </methods>
-      </class> <!-- tests.Vysor -->
+      </class> <!-- tests.APIDemos_Animation_ViewFlip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
