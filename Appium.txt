@@ -1,0 +1,36 @@
+For appium :
+When required to identify elements using uiautomatorviewer
+
+SDK path for uiautomator: C:\Users\deosh\AppData\Local\Android\Sdk\tools\bin
+
+JAVA_HOME=C:\Program Files\OpenJDK\jdk-8.0.262.10    C:\Softwares\jdk-11
+
+
+For browser tests on mobile:
+appium --allow-insecure chromedriver_autodownload
+
+Path of chrome driver:
+C:\Users\deosh\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win
+
+Jenkins:
+
+DEOSHAW
+Devanshi@03
+
+Error:
+An unknown server-side error occurred while processing the command. Could not proxy command to remote server. Original error: Error: socket hang up
+
+Solution:
+Stop appium server and execute below commands
+
+adb uninstall io.appium.uiautomator2.server 
+adb uninstall io.appium.uiautomator2.server.test
+
+start appium server and execute your scripts ..it will work
+
+===========================================================================================
+Disabled auto chrome update on Laptop using msconfig option 
+However, this won't impact Appium project since the appium test runs on mobile device
+===========================================================================================
+
+				

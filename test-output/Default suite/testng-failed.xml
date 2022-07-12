@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_Animation_ViewFlip">
+      <class name="tests.APIDemos_Animation_MultipleProperties">
         <methods>
-          <include name="testViewFlip"/>
+          <include name="testMultipleProperties"/>
         </methods>
-      </class> <!-- tests.APIDemos_Animation_ViewFlip -->
+      </class> <!-- tests.APIDemos_Animation_MultipleProperties -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
