@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-19T11:20:04Z" name="Default suite" finished-at="2022-07-19T11:21:09Z" duration-ms="64673">
+  <suite started-at="2022-07-19T11:29:39Z" name="Default suite" finished-at="2022-07-19T11:30:32Z" duration-ms="53109">
     <groups>
     </groups>
-    <test started-at="2022-07-19T11:20:04Z" name="Default test" finished-at="2022-07-19T11:21:09Z" duration-ms="64673">
+    <test started-at="2022-07-19T11:29:39Z" name="Default test" finished-at="2022-07-19T11:30:32Z" duration-ms="53109">
       <class name="tests.PGATour_Test">
-        <test-method signature="getTheFedExCupLeader()[pri:0, instance:tests.PGATour_Test@7a52f2a2]" started-at="2022-07-19T16:50:05Z" name="getTheFedExCupLeader" finished-at="2022-07-19T16:51:09Z" duration-ms="64411" status="PASS">
+        <test-method signature="getTheFedExCupLeader()[pri:0, instance:tests.PGATour_Test@7a52f2a2]" started-at="2022-07-19T16:59:39Z" name="getTheFedExCupLeader" finished-at="2022-07-19T17:00:32Z" duration-ms="53075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTheFedExCupLeader -->
