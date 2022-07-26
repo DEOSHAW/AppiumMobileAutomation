@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.PGATour_Test">
+      <class name="tests.APIDemos_CheckBoxAndRadioButton">
         <methods>
-          <include name="getTheFedExCupLeader"/>
+          <include name="testAPIDemo"/>
         </methods>
-      </class> <!-- tests.PGATour_Test -->
+      </class> <!-- tests.APIDemos_CheckBoxAndRadioButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
