@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.APIDemos_CheckBoxAndRadioButton">
+      <class name="tests.APIDemos_AppNotification">
         <methods>
-          <include name="testAPIDemo"/>
+          <include name="testAppNotification"/>
         </methods>
-      </class> <!-- tests.APIDemos_CheckBoxAndRadioButton -->
+      </class> <!-- tests.APIDemos_AppNotification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
