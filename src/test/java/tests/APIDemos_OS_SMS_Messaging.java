@@ -28,7 +28,7 @@ public class APIDemos_OS_SMS_Messaging {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		//cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir")+File.separator+"ApiDemos-debug.apk");
 		cap.setCapability("appPackage","io.appium.android.apis");
 		cap.setCapability("appActivity","io.appium.android.apis.ApiDemos");

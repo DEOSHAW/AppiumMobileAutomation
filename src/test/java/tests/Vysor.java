@@ -23,7 +23,7 @@ public class Vysor {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		cap.setCapability("appPackage","com.koushikdutta.vysor");
 		cap.setCapability("appActivity","com.koushikdutta.vysor.StartActivity");
 		URL url=new URL("http://127.0.0.1:4723/wd/hub");

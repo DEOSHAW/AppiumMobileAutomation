@@ -27,7 +27,7 @@ public class Guru99Test {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy M31");
 		//cap.setCapability("udid","RZ8R22NGA2M");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		
 		driver=new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);	

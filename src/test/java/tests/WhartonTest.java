@@ -24,7 +24,7 @@ public class WhartonTest {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 		driver=new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.get("https://www.wharton.upenn.edu/");

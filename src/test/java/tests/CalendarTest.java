@@ -22,7 +22,7 @@ public class CalendarTest {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		//Application info
 		cap.setCapability("appPackage","com.samsung.android.calendar");
 		cap.setCapability("appActivity","com.samsung.android.app.calendar.activity.MainActivity");

@@ -22,7 +22,7 @@ public class GeneralStore_Test1 {
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Samsung Galaxy");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		cap.setCapability(MobileCapabilityType.APP, "C:\\Selenium Projects\\General-Store.apk");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,"10");
 		URL url=new URL("http://127.0.0.1:4723/wd/hub");

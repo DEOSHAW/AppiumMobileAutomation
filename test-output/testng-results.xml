@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T13:27:20Z" name="Default suite" finished-at="2022-08-03T13:27:41Z" duration-ms="20805">
+  <suite started-at="2022-08-07T13:30:46Z" name="Default suite" finished-at="2022-08-07T13:31:22Z" duration-ms="35673">
     <groups>
     </groups>
-    <test started-at="2022-08-03T13:27:20Z" name="Default test" finished-at="2022-08-03T13:27:41Z" duration-ms="20805">
-      <class name="tests.APIDemos_AppNotification">
-        <test-method signature="testAppNotification()[pri:0, instance:tests.APIDemos_AppNotification@add0edd]" started-at="2022-08-03T18:57:20Z" name="testAppNotification" finished-at="2022-08-03T18:57:41Z" duration-ms="20771" status="PASS">
+    <test started-at="2022-08-07T13:30:46Z" name="Default test" finished-at="2022-08-07T13:31:22Z" duration-ms="35673">
+      <class name="tests.APIDemos_Views_Spinners">
+        <test-method signature="testDropDown()[pri:0, instance:tests.APIDemos_Views_Spinners@3bd40a57]" started-at="2022-08-07T19:00:47Z" name="testDropDown" finished-at="2022-08-07T19:01:22Z" duration-ms="35640" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAppNotification -->
-      </class> <!-- tests.APIDemos_AppNotification -->
+        </test-method> <!-- testDropDown -->
+      </class> <!-- tests.APIDemos_Views_Spinners -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

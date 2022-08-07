@@ -23,7 +23,7 @@ public class Camera_Tests {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
 		//cap.setCapability("udid","RZ8R22NGA2M");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		
 		//Application info
 		cap.setCapability("appPackage","com.android.camera2");
