@@ -1,6 +1,5 @@
 package tests;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -14,12 +13,12 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.offset.ElementOption;
 
-public class APIDemos_Text_Linkify {
+public class APIDemos_VideoView {
 	
-	AndroidDriver<AndroidElement> driver;
+AndroidDriver<AndroidElement> driver;
 	
 	@Test
-	void testLinkifyText() throws MalformedURLException
+	void testVideoView() throws Exception
 	{
 		DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
@@ -32,14 +31,14 @@ public class APIDemos_Text_Linkify {
 		driver=new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		TouchAction action=new TouchAction(driver);
-		AndroidElement textElement=driver.findElement(By.xpath("//*[contains(@text,'Text')]"));
-		action.tap(ElementOption.element(textElement)).perform();
-		AndroidElement linkifyText=driver.findElement(By.xpath("//*[contains(@text,'Linkify')]"));
-		action.tap(ElementOption.element(linkifyText)).perform();
-		String text=driver.findElement(By.xpath("//*[contains(@text,'text4')]")).getText();
-		System.out.println(text);
+		AndroidElement mediaLink=driver.findElement(By.xpath("//*[contains(@text,'Media')]"));
+		action.tap(ElementOption.element(mediaLink)).perform();
+		AndroidElement videoViewLink=driver.findElement(By.xpath("//*[contains(@text,'VideoView')]"));
+		action.tap(ElementOption.element(videoViewLink)).perform();
+		Thread.sleep(2500);
 		driver.quit();
 		
 	}
+
 
 }
