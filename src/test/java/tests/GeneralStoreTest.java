@@ -13,7 +13,7 @@ import Base.Baseclass;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.functions.ExpectedCondition;
 
-public class ApiDemoTest extends Baseclass
+public class GeneralStoreTest extends Baseclass
 {
 	@Test
 	void NavigateToShoppingPage()
