@@ -1,0 +1,4 @@
+//Command to download driver with appium server start
+
+appium --allow-insecure=uiautomator2:chromedriver_autodownload
+
