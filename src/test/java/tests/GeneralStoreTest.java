@@ -15,5 +15,6 @@ public class GeneralStoreTest extends Baseclass
 		String productTitle=ob.scrollToProduct();
 		Assert.assertEquals(productTitle, "Nike SFB Jungle");
 		Assert.assertEquals(ob.validateAddToCart(), "Cart");
+		Assert.assertTrue(ob.navigateToWebSite().contains("q=Appium"),"Result is not displayed");
 	}
 }

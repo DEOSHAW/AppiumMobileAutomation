@@ -1,5 +1,6 @@
 package Base;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -31,6 +32,8 @@ public class BaseclassWeb {
 		options.withBrowserName("Chrome");
 		options.setDeviceName("emulator-5554");
 		options.setAdbExecTimeout(Duration.ofSeconds(60));
+		options.setChromedriverExecutable(System.getProperty("user.dir")+File.separator+"chromedriver.exe");
+		options.setCapability("browserName", "Chrome");
 		driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
