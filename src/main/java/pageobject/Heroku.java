@@ -23,10 +23,12 @@ public class Heroku
 	WebElement dropdown;
 	
 	
-	public String selectFromDropdown()
+	public String selectFromDropdown() throws InterruptedException
 	{
 		Select select=new Select(dropdown);
+		Thread.sleep(2000);
 		select.selectByVisibleText("Option 2");
-		return select.getFirstSelectedOption().getText();
+		Thread.sleep(2000);
+		return select.getFirstSelectedOption().getAttribute("value");
 	}
 }
