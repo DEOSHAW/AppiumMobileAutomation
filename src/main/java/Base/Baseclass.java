@@ -32,6 +32,7 @@ public class Baseclass {
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setApp("C:\\Selenium Projects\\General-Store.apk");
 		options.setDeviceName("emulator-5554");
+		options.setCapability("uiautomator2ServerLaunchTimeout", 60000);
 		options.setChromedriverExecutable(System.getProperty("user.dir")+File.separator+"chromedriver.exe");
 		driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

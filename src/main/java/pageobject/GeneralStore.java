@@ -64,14 +64,18 @@ public class GeneralStore
 	WebElement showMoreButton;
 	
 	
-	public String navigateToProductsPage()
+	public String navigateToProductsPage() throws InterruptedException
 	{
 		driver.findElement(AppiumBy.androidUIAutomator(
 			    "new UiScrollable(new UiSelector().scrollable(true))" +
 			    ".scrollIntoView(new UiSelector().text(\"Australia\"))"
 			)).click();
 		
+		nameField.click();
 		nameField.sendKeys("Deo Shaw");
+		Thread.sleep(1000);
+		driver.hideKeyboard();
+		Thread.sleep(3000);
 		shopButton.click();
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		String title=wait.until(ExpectedConditions.visibilityOfElementLocated(AppiumBy.id("com.androidsample.generalstore:id/toolbar_title"))).getText();
