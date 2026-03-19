@@ -1,8 +1,11 @@
 package pageobject;
 
+import java.io.File;
 import java.time.Duration;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
@@ -19,8 +22,11 @@ public class Heroku
 		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(10)), this);
 	}
 	
-	@AndroidFindBy(xpath="select#dropdown")
+	@FindBy(css="select#dropdown")
 	WebElement dropdown;
+	
+	@FindBy(xpath="//div[@class='example']/h3")
+	WebElement pageHeader;
 	
 	
 	public String selectFromDropdown() throws InterruptedException
@@ -31,4 +37,9 @@ public class Heroku
 		Thread.sleep(2000);
 		return select.getFirstSelectedOption().getAttribute("value");
 	}
+	
+	public String navigateToFileUploadPage()
+	{
+		return pageHeader.getText();
+	}	
 }

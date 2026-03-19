@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import Base.BaseclassWeb;
 import pageobject.Heroku;
 
-public class HerokuWebTest extends BaseclassWeb
+public class HerokuDropdownTest extends BaseclassWeb
 {
 	@Test
 	void validateSelectedDropdownValue() throws InterruptedException
