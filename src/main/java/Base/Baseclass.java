@@ -30,7 +30,8 @@ public class Baseclass {
 //        System.out.println("Appium Server Started at: " + service.getUrl());
 		
 		UiAutomator2Options options=new UiAutomator2Options();
-		options.setApp("C:\\Selenium Projects\\General-Store.apk");
+		//options.setApp(System.getProperty("user.dir")+File.separator+"Apps\\General-Store.apk");
+		options.setApp(System.getProperty("user.dir")+File.separator+"Apps\\ApiDemos-debug.apk");
 		options.setDeviceName("emulator-5554");
 		options.setCapability("uiautomator2ServerLaunchTimeout", 60000);
 		options.setChromedriverExecutable(System.getProperty("user.dir")+File.separator+"chromedriver.exe");
