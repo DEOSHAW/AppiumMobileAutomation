@@ -2,3 +2,11 @@
 
 appium --allow-insecure=uiautomator2:chromedriver_autodownload
 
+//Command to mirror real device on android studio
+Both Phone and laptop need to be on the same network
+adb connect 192.168.XX.XXXX:PORT
+
+//To get app package and app activity
+Open the app manually first and then execute below command
+adb shell dumpsys window | find "mCurrentFocus"
+
