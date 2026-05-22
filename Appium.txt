@@ -33,4 +33,9 @@ Disabled auto chrome update on Laptop using msconfig option
 However, this won't impact Appium project since the appium test runs on mobile device
 ===========================================================================================
 
+For Emulator crash issue:
+adb kill-server
+adb start-server
+appium
+
 				
