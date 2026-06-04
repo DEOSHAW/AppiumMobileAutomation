@@ -38,4 +38,11 @@ adb kill-server
 adb start-server
 appium
 
+==========================================================================================
+Connect your device and launch the app, then run:
+
+adb shell dumpsys window | findstr mCurrentFocus
+
+adb shell dumpsys activity activities | findstr mResumedActivity
+
 				
