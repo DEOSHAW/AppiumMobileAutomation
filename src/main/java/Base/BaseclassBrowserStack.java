@@ -36,8 +36,8 @@ public class BaseclassBrowserStack {
         // ======================
         HashMap<String, Object> bstackOptions = new HashMap<>();
 
-        bstackOptions.put("userName", "xx");
-        bstackOptions.put("accessKey", "xx");
+        bstackOptions.put("userName", "deoshaw_jbyRKE");
+        bstackOptions.put("accessKey", "8KznaoqY3otCYTqaT6Vf");
 
         bstackOptions.put("projectName", "App Testing");
         bstackOptions.put("buildName", "Regression");
