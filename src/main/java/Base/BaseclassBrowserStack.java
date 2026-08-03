@@ -29,7 +29,7 @@ public class BaseclassBrowserStack {
         // ======================
         // App URL (BrowserStack)
         // ======================
-        options.setCapability("app", "bs://c3af7ce99f4facc66e542241ebcba43aae03c3ec");
+        options.setCapability("app", "Api_Demos");
 
         // ======================
         // BrowserStack Options
