@@ -23,24 +23,24 @@ public class BaseclassBrowserStack {
         // Device configuration
         // ======================
         options.setPlatformName("Android");
-        options.setDeviceName("Google Pixel 8");
+        options.setDeviceName("Google Pixel 8 Pro");
         options.setPlatformVersion("14.0");
 
         // ======================
         // App URL (BrowserStack)
         // ======================
-        options.setCapability("app", "Api_Demos");
+        options.setCapability("app", "Api_Demos_V1.0");
 
         // ======================
         // BrowserStack Options
         // ======================
         HashMap<String, Object> bstackOptions = new HashMap<>();
 
-        bstackOptions.put("userName", "deoshaw_jbyRKE");
-        bstackOptions.put("accessKey", "8KznaoqY3otCYTqaT6Vf");
+        bstackOptions.put("userName", "deoshaw_Y7UBdT");
+        bstackOptions.put("accessKey", "ocxfe5yse9V91pvnptdp");
 
-        bstackOptions.put("projectName", "App Testing");
-        bstackOptions.put("buildName", "Regression");
+        bstackOptions.put("projectName", "Demo Project");
+        bstackOptions.put("buildName", "Api Demos");
         bstackOptions.put("sessionName", "Test Execution");
 
         // Debugging (important for visibility)
